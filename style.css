@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    background: #1e3c72;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home */
+.home {
+    height: 90vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home span {
+    color: #ffd700;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    background: #ddd;
+    margin: 8px auto;
+    width: 200px;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    background: #1e3c72;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
